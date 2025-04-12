@@ -87,6 +87,10 @@ main {
     grid-template-columns: repeat(5, 1fr);
 }
 
+.hero-contain {
+    grid-area: 1/1/2/6;
+    display: grid;
+}
 #tff-hero {
     width: 100%;
     grid-area: 1/1/2/6;
@@ -130,7 +134,7 @@ h1 {
     grid-area: 5/3/6/4;
     text-align: center;
 }
-.players {
+.players1 {
     grid-area: 6/2/7/5;
 }
 .players2 {
@@ -250,4 +254,36 @@ footer p {
 .s2 > .panel {
     background-color: var(--accent1-color);
     color: var(--primary-color);
+}
+
+@media screen and (max-width: 950px){
+    /*HOME MOBILE*/
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    main {
+        display: inline;
+    }
+    .hero-contain {
+        display: grid;
+        h1 {
+            text-align: center;
+        }
+    }
+    .plays-list {
+        margin: 0 auto;
+        justify-items: center;
+    }
+    .characters {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    /*SESSIONS MOBILE*/
+    .sessions {
+        width: 75%;
+        margin: 0 auto;
+    }
 }
