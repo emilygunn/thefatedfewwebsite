@@ -31,6 +31,22 @@ const characters = [
         image: 'images/cerein.jpg',
         imgAlt: 'Triton Rouge',
     },
+    {
+        colorClass: 'thor',
+        name: 'Thorok "" Thunukalathai',
+        nameDesc: '',
+        raceAndClass: '',
+        background: '',
+        alignment: '',
+        dietyOrPatron: '',
+        personality: '',
+        motivation: '',
+        appearance: '',
+        funFact: '',
+        oneLiner: '',
+        image: '',
+        imgAlt: '',
+    },
     // Template
     // {
     //     colorClass: '',
